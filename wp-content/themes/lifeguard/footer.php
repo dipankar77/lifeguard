@@ -6,12 +6,12 @@
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div class="single-footer-widget pd-bottom50">
                     <div class="title">
-                        <h3>About Hospitals</h3>
+                        <h3>About Lifeguard</h3>
                         <span class="border"></span>
                     </div>
                     <div class="our-info">
-                        <p>The relentless service of Hospitals in the past 25 years taken health care to the most modern levels in the region catering to urban & rural.</p>
-                        <p class="mar-top">A Health Care Provider of Western Approach, Hospitals is the most trusted multispecialty hospital.</p>
+                        <p>Welcome to Lifeguard Pharmacy, a pioneering name in the pharmaceutical landscape of Kolkata. With an unwavering commitment to quality, convenience, and innovation, we have emerged as one of the fastest-growing pharmacy chains in the region. Established on a foundation of trust, Lifeguard Pharmacy is dedicated to providing exceptional service, genuine medications, and unparalleled value to our customers.</p>
+                        <!-- <p class="mar-top">A Health Care Provider of Western Approach, Hospitals is the most trusted multispecialty hospital.</p> -->
                         <a href="#">Know More<i class="fa fa-caret-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
