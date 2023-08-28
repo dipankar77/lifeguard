@@ -526,7 +526,6 @@ get_header();
                                     <div class="top">
                                         <h3>8/7A, Bijaygarg Colony, Golf Green, Kolkata - 700032</h3>
                                         <span>Opposite 234 Bus/Auto Stand</span>
-                                        <h4>To Partner With Us [Call Symbol] +91 98362 13542</h4>
                                     </div>
                                     <span class="border"></span>
                                     <div class="bottom">
