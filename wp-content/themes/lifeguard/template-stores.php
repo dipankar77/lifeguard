@@ -51,8 +51,8 @@ get_header();
             <div class="col-md-6">
                 <div class="text-holder">
                     <div class="title">
-                        <h1>Welcome to Life Guard</h1>
-                        <p>It is a long established fact that a reader will be distracted by the readable content more or less normal distribution of letters opposed.</p>    
+                        <h1>Welcome to Life Guard Pharmacy</h1>
+                        <p>A pioneering name in the pharmaceutical landscape of Kolkata.</p>    
                     </div>
                     <ul>
                         <li>
@@ -62,7 +62,7 @@ get_header();
                                 </div>
                                 <div class="text-box">
                                     <h3>Our Mission</h3>
-                                    <p>Reader will be distracted by the readable content of a page when looking at its layout the point of using more or less normal distribution.</p>
+                                    <p>At Lifeguard Pharmacy, our journey began with a vision to transform the pharmacy experience. Today, we proudly stand as a testament to relentless growth and a dedication to our customers' well-being.</p>
                                 </div>
                             </div>
                         </li>
@@ -73,10 +73,10 @@ get_header();
                                 </div>
                                 <div class="text-box">
                                     <h3>Our Vision</h3>
-                                    <p>Explain to you how all this mistaken idea of denouncing pleasure.</p>
+                                    <p>Lifeguard Pharmacy is not just a pharmacy chain; it's a commitment to elevating healthcare standards. We invite you to be a part of our journey as we continue to redefine the pharmacy landscape in Kolkata and beyond.</p>
                                     <div class="text">
-                                        <p><i class="fa fa-hand-o-right"></i>Idea of denouncing pleasure and praising.</p>    
-                                        <p><i class="fa fa-hand-o-right"></i>Pleasure and praising pain was complete system.</p>    
+                                        <p><i class="fa fa-hand-o-right"></i>Your Health, Our Priority.</p>    
+                                        <p><i class="fa fa-hand-o-right"></i>Together, let's make a positive impact on the world of healthcare.</p>    
                                     </div>
                                 </div>
                             </div>
@@ -103,7 +103,7 @@ get_header();
                         <span class="flaticon-transport"></span>    
                     </div>
                     <div class="text-box">
-                        <h3>24 Hrs Ambulance</h3>
+                        <h3>Allopathic Medicines</h3>
                         <p>How all this mistaken idea denoucing pleasure and praisings pain was born complete account expound.</p>
                     </div>
                 </div>
@@ -116,7 +116,7 @@ get_header();
                         <span class="flaticon-drink"></span>    
                     </div>
                     <div class="text-box">
-                        <h3>Food & Dietry</h3>
+                        <h3>Ayurvedic Medicines</h3>
                         <p>There anyone who loves or pursues or to obtain pain of itself, because it is but because occasionally.</p>
                     </div>
                 </div>
@@ -129,7 +129,7 @@ get_header();
                         <span class="flaticon-avatar"></span>    
                     </div>
                     <div class="text-box">
-                        <h3>Special Nurses</h3>
+                        <h3>Homeopathy Medicines</h3>
                         <p>Pursues or desires to obtain pain itself, because is pain, because occasionally circumstances occur procure.</p>
                     </div>
                 </div>
@@ -144,7 +144,7 @@ get_header();
                         <span class="flaticon-church"></span>    
                     </div>
                     <div class="text-box">
-                        <h3>Places of Worship</h3>
+                        <h3>Surgical Products</h3>
                         <p>Undertakes laborious physical exercise, except to obtain some advantage from it but who has any right.</p>
                     </div>
                 </div>
@@ -157,7 +157,7 @@ get_header();
                         <span class="flaticon-phone"></span>    
                     </div>
                     <div class="text-box">
-                        <h3>Customer Support</h3>
+                        <h3>Daily Use Products</h3>
                         <p>Undertakes laborious physical exercise, except to obtain some advantage from it but who has any right.</p>
                     </div>
                 </div>
@@ -170,7 +170,7 @@ get_header();
                         <span class="flaticon-medical-2"></span>    
                     </div>
                     <div class="text-box">
-                        <h3>Very Fast Aid</h3>
+                        <h3>OTC Products</h3>
                         <p>Pursues or desires to obtain pain itself, because is pain, because occasionally circumstances occur procure.</p>
                     </div>
                 </div>

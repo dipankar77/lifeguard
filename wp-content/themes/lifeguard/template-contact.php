@@ -40,7 +40,7 @@ get_header();
 <section class="contact-form-area">
     <div class="container">
         <div class="sec-title">
-            <h1>Get Touch With Us</h1>
+            <h1>Get In Touch With Us</h1>
             <span class="border"></span>
             <div class="select-box pull-right">
                 <select class="text-capitalize selectpicker form-control required" name="form_subject" data-style="g-select" data-width="100%">
@@ -98,7 +98,7 @@ get_header();
                                 <span class="flaticon-pin"></span>
                             </div>
                             <div class="text-holder">
-                                <h5><span>Address:</span> 121, Park Drive, Varick Str<br>New York, NY 10012, USA</h5>
+                                <h5><span>Address:</span> 5/1, Paddapukur Road, Devika Apartment, Ground Floor,  Kolkata - 700020<br>LANDMARK: Opposite Khalsa Girls High School</h5>
                             </div>
                         </li>
                         <li>
@@ -106,7 +106,7 @@ get_header();
                                 <span class="flaticon-technology"></span>
                             </div>
                             <div class="text-holder">
-                                <h5><span>Phone:</span> (123) 0200 12345 &<br>1800-45-678-9012</h5>
+                                <h5><span>Phone:</span> +91 98362 13542</h5>
                             </div>
                         </li>
                         <li>
@@ -114,7 +114,7 @@ get_header();
                                 <span class="flaticon-interface"></span>
                             </div>
                             <div class="text-holder">
-                                <h5><span>Email:</span> Mailus@hospitalteam.com</h5>
+                                <h5><span>Email:</span> info@lifeguard.net</h5>
                             </div>
                         </li>
                     </ul>

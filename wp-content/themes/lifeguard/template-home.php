@@ -89,7 +89,7 @@ get_header();
                 <div class="inner-content">
                     <div class="title-box text-center">
                         <span class="flaticon-calendar"></span>
-                        <h2>FRANCHISE ENQUIRY</h2>    
+                        <h2>Exploring Franchise Opportunities?</h2>    
                     </div>
                     <div class="form-holder clearfix">
                         <form id="appointment" class="clearfix" name="appointment-form" action="http://st.ourhtmldemo.com/new/Hospitals/inc/sendmail.php" method="post">
@@ -172,7 +172,7 @@ get_header();
                             <div class="tab-pane" id="opthalmology">
                                 <div class="inner-content">
                                     <div class="sec-title">
-                                        <h1>About Us</h1>
+                                        <h1>About Lifeguard</h1>
                                         <span class="border"></span>
                                     </div>
                                     <div class="row">
@@ -196,14 +196,14 @@ get_header();
                             <div class="tab-pane active" id="laboratory">
                                 <div class="inner-content">
                                     <div class="sec-title">
-                                        <h1>About Us</h1>
+                                        <h1>About Lifeguard</h1>
                                         <span class="border"></span>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="text-box">
-                                                <h3>Laboratory Analysis</h3>
-                                                <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and the master-builder of human happiness. Expound the actual teachings of the great explorer of the truth.</p>
+                                                <h3>Welcome</h3>
+                                                <p>Welcome to Lifeguard Pharmacy, a pioneering name in the pharmaceutical landscape of Kolkata. With an unwavering commitment to quality, convenience, and innovation, we have emerged as one of the fastest-growing pharmacy chains in the region.</p>
                                                 <a class="thm-btn" href="#">Read More</a>
                                             </div>    
                                         </div>    
@@ -267,7 +267,8 @@ get_header();
                         </div>
                         <ul class="nav nav-tabs tab-menu">
                             <li>
-                                <a href="#opthalmology" data-toggle="tab">
+                                <!-- <a href="#opthalmology" data-toggle="tab"> -->
+                                <a href="#">
                                     <div class="img-holder">
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-small-1.jpg" alt="Awesome Image">
                                         <div class="overlay-style-one">
@@ -281,10 +282,12 @@ get_header();
                                         </div>
                                     </div>
                                 </a>
-                                <h3>Opthalmology</h3>
+                                <h3>Bhowanipore</h3>
                             </li>
-                            <li class="active">
-                                <a href="#laboratory" data-toggle="tab">
+                            <!-- <li class="active"> -->
+                            <li>
+                                <!-- <a href="#laboratory" data-toggle="tab"> -->
+                                <a href="#">
                                     <div class="img-holder">
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-small-2.jpg" alt="Awesome Image">
                                         <div class="overlay-style-one">
@@ -298,10 +301,11 @@ get_header();
                                         </div>
                                     </div>    
                                 </a>
-                                <h3>Laboratory</h3>
+                                <h3>Park Circus</h3>
                             </li>
                             <li>
-                                <a href="#cardiac" data-toggle="tab">
+                                <!-- <a href="#cardiac" data-toggle="tab"> -->
+                                <a href="#">
                                     <div class="img-holder">
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-small-3.jpg" alt="Awesome Image">
                                         <div class="overlay-style-one">
@@ -315,9 +319,9 @@ get_header();
                                         </div>
                                     </div>
                                 </a>
-                                <h3>Cardiac Clinic</h3>
+                                <h3>Golf Green</h3>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="#outpatient" data-toggle="tab">
                                     <div class="img-holder">
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-small-4.jpg" alt="Awesome Image">
@@ -333,7 +337,7 @@ get_header();
                                     </div>
                                 </a>
                                 <h3>OutPatient</h3>
-                            </li>
+                            </li> -->
                         </ul> 
                     </div>
                     <!--End tab box--> 
@@ -347,7 +351,7 @@ get_header();
 <section class="medical-departments-area">
     <div class="container">
         <div class="sec-title">
-            <h1>Our Services</h1>
+            <h1>Our Products</h1>
             <span class="border"></span>
         </div>
         <div class="row">
@@ -837,7 +841,7 @@ get_header();
             <div class="col-md-8">
                 <div class="facilities-content-box">
                     <div class="sec-title">
-                        <h1>Looking for a franchise?</h1>
+                        <h1>Partner with us</h1>
                         <span class="border"></span>
                     </div>
                     <!--Start facilities carousel-->
