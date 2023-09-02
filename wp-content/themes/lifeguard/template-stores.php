@@ -1,5 +1,5 @@
 <?php 
-/* Template Name: About */ 
+/* Template Name: Stores */ 
 get_header();
 ?>
 <!--Start breadcrumb area-->     
