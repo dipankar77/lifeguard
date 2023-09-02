@@ -134,25 +134,13 @@ get_header();
 <!--End contact form area-->  
 
 <!--Start contact map area-->
-<section class="contact-map-area">
-    <div class="container-fluid">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14740.903136905688!2d88.3336380107614!3d22.53321336812982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02773b434957f5%3A0x801da160ca17db35!2s5%2C%20Paddapukur%20Rd%2C%20Madan%20Mohan%20Malaviya%20Sarani%2C%20Jadubabur%20Bazar%2C%20Bhowanipore%2C%20Kolkata%2C%20West%20Bengal%20700025!5e0!3m2!1sen!2sin!4v1692038372472!5m2!1sen!2sin" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <!-- <div class="google-map-inner">
-            <div 
-                class="google-map" 
-                id="contact-google-map" 
-                data-map-lat="44.529688" 
-                data-map-lng="-72.933009" 
-                data-icon-path="images/resources/map-marker.png" 
-                data-map-title="Brooklyn, New York, United Kingdom" 
-                data-map-zoom="12" 
-                data-markers='{
-                    "marker-1": [44.529688, -72.933009, "<h4>Head Office</h4><p>44/77 Alabama, a western U.S.A</p>"]
-                }'>
-            </div> -->
-        </div>  
+<section class="team-area doctor">
+    <div class="container">
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14740.903136905688!2d88.3336380107614!3d22.53321336812982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02773b434957f5%3A0x801da160ca17db35!2s5%2C%20Paddapukur%20Rd%2C%20Madan%20Mohan%20Malaviya%20Sarani%2C%20Jadubabur%20Bazar%2C%20Bhowanipore%2C%20Kolkata%2C%20West%20Bengal%20700025!5e0!3m2!1sen!2sin!4v1692038372472!5m2!1sen!2sin" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
-</section>
+</section> 
 <!--End contact map area-->
 <?php
 get_footer();
