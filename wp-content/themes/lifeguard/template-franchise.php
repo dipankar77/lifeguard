@@ -43,7 +43,7 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="inner-content">
+                <div class="inner-content" style="margin-top: 0px !important;">
                     <div class="title-box text-center">
                         <span class="flaticon-calendar"></span>
                         <h2>Exploring Franchise Opportunities?</h2>    
