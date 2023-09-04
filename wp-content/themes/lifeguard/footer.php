@@ -199,5 +199,14 @@
 <script src="<?php echo get_template_directory_uri(); ?>/assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
 <!-- thm custom script -->
 <script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
+<script>
+      $(document).ready(function() {
+      var viewportWidth = $(window).width();
+      
+      if (viewportWidth < 768) {
+         $('.element-to-hide').hide();
+      }
+      });
+   </script>
 </body>
 </html>
