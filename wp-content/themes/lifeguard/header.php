@@ -20,6 +20,14 @@
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script src="js/html5shiv.js"></script>
     <![endif]-->
+    <style>
+        @media (max-width: 767px) {
+            /* CSS rules to hide the section on mobile */
+            #section-to-hide {
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
 <div class="boxed_wrapper">
@@ -64,7 +72,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-9 col-md-9">
+            <div class="col-lg-9 col-md-9" id="section-to-hide">
                 <div class="header-right">
                     <ul>
                         <li>
