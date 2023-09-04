@@ -360,7 +360,8 @@ get_header();
                     <!--Start single item-->
                     <div class="single-item text-center">
                         <div class="iocn-holder">
-                            <span class="flaticon-cardiology"></span>    
+                            <!-- <span class="flaticon-cardiology"></span>   -->
+                            <i class="fas fa-walking"></i>  
                         </div>
                         <div class="text-holder">
                             <h3>Allopathic Medicines</h3>
