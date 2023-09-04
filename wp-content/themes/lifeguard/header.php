@@ -64,7 +64,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-9 col-md-9">
+            <!-- <div class="col-lg-9 col-md-9">
                 <div class="header-right">
                     <ul>
                         <li>
@@ -101,7 +101,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>   
