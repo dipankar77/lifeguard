@@ -38,6 +38,489 @@ get_header();
 </section>
 <!--End breadcrumb area-->
 
+<!--Start call to action area-->
+<section class="callto-action-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="inner-content">
+                    <div class="title-box text-center">
+                        <span class="flaticon-calendar"></span>
+                        <h2>Exploring Franchise Opportunities?</h2>    
+                    </div>
+                    <div class="form-holder clearfix">
+                        <form id="appointment" class="clearfix" name="appointment-form" action="http://st.ourhtmldemo.com/new/Hospitals/inc/sendmail.php" method="post">
+                            <div class="single-box mar-right-30">    
+                                <div class="input-box">
+                                    <input type="text" name="form_name" value="" placeholder="Your Name" required="">
+                                </div>
+                                <!-- <div class="input-box">
+                                    <select class="selectmenu">
+                                        <option selected="selected">Select Doctor</option>
+                                        <option>Marc Parcival</option>
+                                        <option>Alen Bailey</option>
+                                        <option>Basil Andrew</option>
+                                        <option>Giles Franklin</option>
+                                        <option>Edgar Denzil</option>
+                                        <option>Garfield Feris</option>
+                                    </select>  
+                                </div> -->
+                                <div class="input-box">
+                                    <input type="text" name="form_phone" value="" placeholder="Phone">  
+                                </div>
+                            </div>
+                            <div class="single-box">    
+                                <!-- <div class="input-box">  
+                                    <select class="selectmenu">
+                                        <option selected="selected">Select Department</option>
+                                        <option>Cardiology</option>
+                                        <option>Pulmonology</option>
+                                        <option>Gynecology</option>
+                                        <option>Neurology</option>
+                                        <option>Urology</option>
+                                        <option>Gastrology</option>
+                                        <option>Pediatrician</option>
+                                        <option>Laboratory</option>
+                                    </select>
+                                </div> -->
+                                <div class="input-box">  
+                                    <select class="selectmenu">
+                                        <option selected="selected">Select Location</option>
+                                        <option>Bhowanipore</option>
+                                        <option>Park Circus</option>
+                                        <option>Golf Green</option>
+                                    </select>
+                                </div>
+                                <div class="input-box">
+                                    <input type="text" name="date" placeholder="Select Date" id="datepicker">
+                                    <div class="icon-box">
+                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    </div>
+                                </div>       
+                            </div>
+                            <button class="thm-btn bgclr-1" type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>    
+                        </form>      
+                    </div> 
+                       
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End call to action area-->
+
+<!--Start service area-->
+<section class="service-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="img-holder">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/services/doctor.jpg" alt="Awesome Image">
+                    <div class="overlay-content">
+                        <p>As a tertiary referral ICU to provide state of the art care with the help of very good professionals and infrastructure.</p>  
+                    </div>    
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="text-holder">
+                    <!--Start tab box-->
+                    <div class="tab-box">
+                        <div class="tab-content">
+                            <!--Start single tab pane-->
+                            <div class="tab-pane" id="opthalmology">
+                                <div class="inner-content">
+                                    <div class="sec-title">
+                                        <h1>About Lifeguard</h1>
+                                        <span class="border"></span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="text-box">
+                                                <h3>Opthalmology Analysis</h3>
+                                                <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
+                                                <a class="thm-btn" href="#">Read More</a>
+                                            </div>    
+                                        </div>    
+                                        <div class="col-md-6">
+                                            <div class="img-box">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-big-1.jpg" alt="Awesome Image">
+                                            </div>    
+                                        </div>    
+                                    </div>
+                                </div>  
+                            </div>
+                            <!--End single tab pane-->
+                            <!--Start single tab pane-->
+                            <div class="tab-pane active" id="laboratory">
+                                <div class="inner-content">
+                                    <div class="sec-title">
+                                        <h1>About Lifeguard</h1>
+                                        <span class="border"></span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="text-box">
+                                                <h3>Welcome</h3>
+                                                <p>Welcome to Lifeguard Pharmacy, a pioneering name in the pharmaceutical landscape of Kolkata. With an unwavering commitment to quality, convenience, and innovation, we have emerged as one of the fastest-growing pharmacy chains in the region.</p>
+                                                <a class="thm-btn" href="#">Read More</a>
+                                            </div>    
+                                        </div>    
+                                        <div class="col-md-6">
+                                            <div class="img-box">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-big-2.jpg" alt="Awesome Image">
+                                            </div>    
+                                        </div>    
+                                    </div>
+                                </div>  
+                            </div>
+                            <!--End single tab pane-->
+                            <!--Start single tab pane-->
+                            <div class="tab-pane" id="cardiac">
+                                <div class="inner-content">
+                                    <div class="sec-title">
+                                        <h1>Our Best Services</h1>
+                                        <span class="border"></span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="text-box">
+                                                <h3>Cardiac Clinic Analysis</h3>
+                                                <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and the master-builder of human happiness. Expound the actual teachings of the great explorer of the truth.</p>
+                                                <a class="thm-btn" href="#">Read More</a>
+                                            </div>    
+                                        </div>    
+                                        <div class="col-md-6">
+                                            <div class="img-box">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-big-3.jpg" alt="Awesome Image">
+                                            </div>    
+                                        </div>    
+                                    </div>
+                                </div>     
+                            </div>
+                            <!--End single tab pane-->
+                            <!--Start single tab pane-->
+                            <div class="tab-pane" id="outpatient">
+                                <div class="inner-content">
+                                    <div class="sec-title">
+                                        <h1>Our Best Services</h1>
+                                        <span class="border"></span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="text-box">
+                                                <h3>OutPatient Analysis</h3>
+                                                <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and the master-builder of human happiness. Expound the actual teachings of the great explorer of the truth.</p>
+                                                <a class="thm-btn" href="#">Read More</a>
+                                            </div>    
+                                        </div>    
+                                        <div class="col-md-6">
+                                            <div class="img-box">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-big-4.jpg" alt="Awesome Image">
+                                            </div>    
+                                        </div>    
+                                    </div>
+                                </div>     
+                            </div>
+                            <!--End single tab pane-->
+                        </div>
+                        <ul class="nav nav-tabs tab-menu">
+                            <li>
+                                <!-- <a href="#opthalmology" data-toggle="tab"> -->
+                                <a href="#">
+                                    <div class="img-holder">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-small-1.jpg" alt="Awesome Image">
+                                        <div class="overlay-style-one">
+                                            <div class="box">
+                                                <div class="content">
+                                                    <div class="iocn-holder">
+                                                        <span class="flaticon-plus-symbol"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <h3>Bhowanipore</h3>
+                            </li>
+                            <!-- <li class="active"> -->
+                            <li>
+                                <!-- <a href="#laboratory" data-toggle="tab"> -->
+                                <a href="#">
+                                    <div class="img-holder">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-small-2.jpg" alt="Awesome Image">
+                                        <div class="overlay-style-one">
+                                            <div class="box">
+                                                <div class="content">
+                                                    <div class="iocn-holder">
+                                                        <span class="flaticon-plus-symbol"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </a>
+                                <h3>Park Circus</h3>
+                            </li>
+                            <li>
+                                <!-- <a href="#cardiac" data-toggle="tab"> -->
+                                <a href="#">
+                                    <div class="img-holder">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-small-3.jpg" alt="Awesome Image">
+                                        <div class="overlay-style-one">
+                                            <div class="box">
+                                                <div class="content">
+                                                    <div class="iocn-holder">
+                                                        <span class="flaticon-plus-symbol"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <h3>Golf Green</h3>
+                            </li>
+                            <!-- <li>
+                                <a href="#outpatient" data-toggle="tab">
+                                    <div class="img-holder">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-small-4.jpg" alt="Awesome Image">
+                                        <div class="overlay-style-one">
+                                            <div class="box">
+                                                <div class="content">
+                                                    <div class="iocn-holder">
+                                                        <span class="flaticon-plus-symbol"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <h3>OutPatient</h3>
+                            </li> -->
+                        </ul> 
+                    </div>
+                    <!--End tab box--> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>  
+<!--End service area-->
+
+<!--Start Medical Departments area-->
+<section class="medical-departments-area">
+    <div class="container">
+        <div class="sec-title">
+            <h1>Our Products</h1>
+            <span class="border"></span>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="medical-departments-carousel">
+                    <!--Start single item-->
+                    <div class="single-item text-center">
+                        <div class="iocn-holder">
+                            <span class="flaticon-cardiology"></span>    
+                        </div>
+                        <div class="text-holder">
+                            <h3>Allopathic Medicines</h3>
+                            <!-- <p>Allopathic Medicines.</p> -->
+                        </div>
+                        <!-- <a class="readmore" href="#">Read More</a> -->
+                    </div>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <div class="single-item text-center">
+                        <div class="iocn-holder">
+                            <span class="flaticon-lungs"></span>    
+                        </div>
+                        <div class="text-holder">
+                            <h3>Ayurvedic Medicines</h3>
+                            <!-- <p>Ayurvedic Medicines.</p> -->
+                        </div>
+                        <!-- <a class="readmore" href="#">Read More</a> -->
+                    </div>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <div class="single-item text-center">
+                        <div class="iocn-holder">
+                            <span class="flaticon-vagina"></span>    
+                        </div>
+                        <div class="text-holder">
+                            <h3>Homeopathy Medicines</h3>
+                            <!-- <p>Homeopathy Medicines.</p> -->
+                        </div>
+                        <!-- <a class="readmore" href="#">Read More</a> -->
+                    </div>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <div class="single-item text-center">
+                        <div class="iocn-holder">
+                            <span class="flaticon-neurology"></span>    
+                        </div>
+                        <div class="text-holder">
+                            <h3>Surgical Products</h3>
+                            <!-- <p>Surgical Products.</p> -->
+                        </div>
+                        <!-- <a class="readmore" href="#">Read More</a> -->
+                    </div>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <div class="single-item text-center">
+                        <div class="iocn-holder">
+                            <span class="flaticon-neurology"></span>    
+                        </div>
+                        <div class="text-holder">
+                            <h3>OTC Product</h3>
+                            <!-- <p>OTC Product.</p> -->
+                        </div>
+                        <!-- <a class="readmore" href="#">Read More</a> -->
+                    </div>
+                    <!--End single item-->
+                        <!--Start single item-->
+                        <div class="single-item text-center">
+                        <div class="iocn-holder">
+                            <span class="flaticon-neurology"></span>    
+                        </div>
+                        <div class="text-holder">
+                            <h3>Other Products</h3>
+                            <!-- <p>Other Products.</p> -->
+                        </div>
+                        <!-- <a class="readmore" href="#">Read More</a> -->
+                    </div>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <div class="single-item text-center">
+                        <div class="iocn-holder">
+                            <span class="flaticon-neurology"></span>    
+                        </div>
+                        <div class="text-holder">
+                            <h3>Daily Use Products</h3>
+                            <!-- <p>Daily Use Products.</p> -->
+                        </div>
+                        <!-- <a class="readmore" href="#">Read More</a> -->
+                    </div>
+                    <!--End single item-->
+                </div>
+            </div>    
+        </div>
+    </div>
+</section>
+<!--End Medical Departments area--> 
+
+<!--Start contact map area-->
+<section class="team-area doctor">
+    <div class="container">
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14740.903136905688!2d88.3336380107614!3d22.53321336812982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02773b434957f5%3A0x801da160ca17db35!2s5%2C%20Paddapukur%20Rd%2C%20Madan%20Mohan%20Malaviya%20Sarani%2C%20Jadubabur%20Bazar%2C%20Bhowanipore%2C%20Kolkata%2C%20West%20Bengal%20700025!5e0!3m2!1sen!2sin!4v1692038372472!5m2!1sen!2sin" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section> 
+<!--End contact map area-->
+
+<!--Start team area-->
+<section class="team-area">
+    <div class="container">
+        <div class="sec-title">
+            <h1>Our Locations</h1>
+            <span class="border"></span>
+        </div>
+        <div class="row">
+            <!--Start single item-->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="single-team-member">
+                    <div class="img-holder">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/team/1.jpg" alt="Awesome Image">
+                        <div class="overlay-style">
+                            <div class="box">
+                                <div class="content">
+                                    <div class="top">
+                                        <h3>5/1, Paddapukur Road, Devika Apartment, Ground Floor,  Kolkata - 700020</h3>
+                                        <span>Opposite Khalsa Girls High School</span>
+                                    </div>
+                                    <span class="border"></span>
+                                    <div class="bottom">
+                                        <ul>
+                                            <li><i class="fa fa-phone" aria-hidden="true"></i>9007594965 / 9748123141</li>
+                                            <li><i class="fa fa-envelope" aria-hidden="true"></i>lifeguardpharmacy1@gmail.com</li>
+                                        </ul>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-holder">
+                            <h3>Bhowanipore</h3> 
+                            <span>Kolkata</span>   
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <!--End single item-->
+            <!--Start single item-->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="single-team-member">
+                    <div class="img-holder">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/team/2.jpg" alt="Awesome Image">
+                        <div class="overlay-style">
+                            <div class="box">
+                                <div class="content">
+                                    <div class="top">
+                                        <h3>35, Beckbagan Row, Kolkata - 700017</h3>
+                                        <span>Beside Mithai Shop</span>
+                                    </div>
+                                    <span class="border"></span>
+                                    <div class="bottom">
+                                        <ul>
+                                            <li><i class="fa fa-phone" aria-hidden="true"></i> 8100565003</li>
+                                            <li><i class="fa fa-envelope" aria-hidden="true"></i> lifeguardpharmacy2@gmail.com</li>
+                                        </ul>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-holder">
+                            <h3>Park Circus</h3> 
+                            <span>Kolkata</span>   
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <!--End single item-->
+            <!--Start single item-->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="single-team-member">
+                    <div class="img-holder">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/team/3.jpg" alt="Awesome Image">
+                        <div class="overlay-style">
+                            <div class="box">
+                                <div class="content">
+                                    <div class="top">
+                                        <h3>8/7A, Bijaygarg Colony, Golf Green, Kolkata - 700032</h3>
+                                        <span>Opposite 234 Bus/Auto Stand</span>
+                                    </div>
+                                    <span class="border"></span>
+                                    <div class="bottom">
+                                        <ul>
+                                            <li><i class="fa fa-phone" aria-hidden="true"></i> 7044646580 / 8013150058</li>
+                                            <li><i class="fa fa-envelope" aria-hidden="true"></i> lifeguardpharmacy3@gmail.com</li>
+                                        </ul>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-holder">
+                            <h3>Golf Green</h3> 
+                            <span>Kolkata</span>   
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <!--End single item-->
+        </div>
+    </div>
+</section> 
+<!--End team area-->
+
+<?php /*
 <!--Start departments single area-->
 <section id="departments-single-area">
     <div class="container">
@@ -469,6 +952,7 @@ get_header();
     </div>
 </section>
 <!--End Medical Departments area--> 
+*/ ?>
 
 <!--Start slogan area-->
 <section class="slogan-area">
@@ -476,10 +960,10 @@ get_header();
         <div class="row">
             <div class="col-md-12">
                 <div class="title pull-left">
-                    <h2>If you are a patient seeking quality healthcare at affordable prices!.</h2>
+                    <h2>Source of Income? Wondering HOW?</h2>
                 </div>
                 <div class="button pull-right">
-                    <a class="thm-btn bgclr-1" href="#">Make an Appointment</a>
+                    <a class="thm-btn bgclr-1" href="#">Download Document</a>
                 </div>
             </div>
         </div>

@@ -64,7 +64,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-9 col-md-9 element-to-hide">
+            <div class="col-lg-9 col-md-9">
                 <div class="header-right">
                     <ul>
                         <li>
@@ -152,6 +152,9 @@
                 <!--End mainmenu-->
                 <!--Start mainmenu right box-->
                 <div class="mainmenu-right-box pull-right">
+                    <!-- <div class="cart_select">
+                        <button><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>(0)</span></button>
+                    </div> -->
                     <div class="consultation-button">
                         <a href="#">For Consultation</a>    
                     </div>
