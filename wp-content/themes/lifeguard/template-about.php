@@ -45,14 +45,14 @@ get_header();
                     <img src="<?php echo get_template_directory_uri(); ?>/images/resources/welcome.jpg" alt="Awesome Image">    
                 </div>
                 <div class="inner-content">
-                    <p>As a tertiary referral ICU to provide state of the art care with the help of very good professionals and infrastructure.</p>
+                    <p>An omnichannel healthcare partner.</p>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="text-holder">
                     <div class="title">
                         <h1>Welcome to Life Guard</h1>
-                        <p>It is a long established fact that a reader will be distracted by the readable content more or less normal distribution of letters opposed.</p>    
+                        <p>We are one of the Fastest growing Pharma Chains in Kolkata.</p>    
                     </div>
                     <ul>
                         <li>
@@ -62,7 +62,7 @@ get_header();
                                 </div>
                                 <div class="text-box">
                                     <h3>Our Mission</h3>
-                                    <p>Reader will be distracted by the readable content of a page when looking at its layout the point of using more or less normal distribution.</p>
+                                    <p>One Stop destination for all basic healthcare needs.</p>
                                 </div>
                             </div>
                         </li>
@@ -75,8 +75,11 @@ get_header();
                                     <h3>Our Vision</h3>
                                     <p>Explain to you how all this mistaken idea of denouncing pleasure.</p>
                                     <div class="text">
-                                        <p><i class="fa fa-hand-o-right"></i>Idea of denouncing pleasure and praising.</p>    
-                                        <p><i class="fa fa-hand-o-right"></i>Pleasure and praising pain was complete system.</p>    
+                                        <p><i class="fa fa-hand-o-right"></i>From a regular pharmacy store to one which
+promotes and caters to every requirement for a
+healthy lifestyle</p>    
+                                        <p><i class="fa fa-hand-o-right"></i>Enabling access to complete Healthcare
+information</p>    
                                     </div>
                                 </div>
                             </div>
@@ -103,8 +106,8 @@ get_header();
                         <span class="flaticon-transport"></span>    
                     </div>
                     <div class="text-box">
-                        <h3>24 Hrs Ambulance</h3>
-                        <p>How all this mistaken idea denoucing pleasure and praisings pain was born complete account expound.</p>
+                        <h3>Allopathic Medicines</h3>
+<!--                         <p>How all this mistaken idea denoucing pleasure and praisings pain was born complete account expound.</p> -->
                     </div>
                 </div>
             </div>
@@ -116,8 +119,8 @@ get_header();
                         <span class="flaticon-drink"></span>    
                     </div>
                     <div class="text-box">
-                        <h3>Food & Dietry</h3>
-                        <p>There anyone who loves or pursues or to obtain pain of itself, because it is but because occasionally.</p>
+                        <h3>Ayurvedic Medicines</h3>
+<!--                         <p>There anyone who loves or pursues or to obtain pain of itself, because it is but because occasionally.</p> -->
                     </div>
                 </div>
             </div>
@@ -129,8 +132,8 @@ get_header();
                         <span class="flaticon-avatar"></span>    
                     </div>
                     <div class="text-box">
-                        <h3>Special Nurses</h3>
-                        <p>Pursues or desires to obtain pain itself, because is pain, because occasionally circumstances occur procure.</p>
+                        <h3>Homeopathy Medicines</h3>
+<!--                         <p>Pursues or desires to obtain pain itself, because is pain, because occasionally circumstances occur procure.</p> -->
                     </div>
                 </div>
             </div>
@@ -144,8 +147,8 @@ get_header();
                         <span class="flaticon-church"></span>    
                     </div>
                     <div class="text-box">
-                        <h3>Places of Worship</h3>
-                        <p>Undertakes laborious physical exercise, except to obtain some advantage from it but who has any right.</p>
+                        <h3>Surgical Products</h3>
+<!--                         <p>Undertakes laborious physical exercise, except to obtain some advantage from it but who has any right.</p> -->
                     </div>
                 </div>
             </div>
@@ -157,8 +160,8 @@ get_header();
                         <span class="flaticon-phone"></span>    
                     </div>
                     <div class="text-box">
-                        <h3>Customer Support</h3>
-                        <p>Undertakes laborious physical exercise, except to obtain some advantage from it but who has any right.</p>
+                        <h3>OTC Product</h3>
+<!--                         <p>Undertakes laborious physical exercise, except to obtain some advantage from it but who has any right.</p> -->
                     </div>
                 </div>
             </div>
@@ -170,8 +173,8 @@ get_header();
                         <span class="flaticon-medical-2"></span>    
                     </div>
                     <div class="text-box">
-                        <h3>Very Fast Aid</h3>
-                        <p>Pursues or desires to obtain pain itself, because is pain, because occasionally circumstances occur procure.</p>
+                        <h3>Other Products</h3>
+<!--                         <p>Pursues or desires to obtain pain itself, because is pain, because occasionally circumstances occur procure.</p> -->
                     </div>
                 </div>
             </div>
@@ -207,92 +210,50 @@ get_header();
         </div>
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                <div class="latest-project">
-                    <!--Start single blog post-->
-                    <div class="single-project-item">
-                        <div class="img-holder">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/projects/latest-project-1.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one">
-                                <div class="box">
-                                    <div class="content">
-                                        <a href="projects-single.html"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
+                <div class="faq-content">
+                    <div class="accordion-box">
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn active">
+                                <h4>Where is the hospital located?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>A Patient Centered Medical Home is a model of healthcare delivery in which care is tailored to the needs & preferences of patients, the Patient Centered Medical  model encourages.</p>
                             </div>
                         </div>
-                    </div>
-                    <!--End single blog post-->
-                    <!--Start single blog post-->
-                    <div class="single-project-item">
-                        <div class="img-holder">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/projects/latest-project-2.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one">
-                                <div class="box">
-                                    <div class="content">
-                                        <a href="projects-single.html"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
+                        <!--End single accordion box--> 
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is the deposit amount for admission?</h4>
+                            </div>
+                            <div class="accord-content collapsed">
+                                <p>A Patient Centered Medical Home is a model of healthcare delivery in which care is tailored to the needs & preferences of patients, the Patient Centered Medical  model encourages.</p>
                             </div>
                         </div>
-                    </div>
-                    <!--End single blog post-->
-                    <!--Start single blog post-->
-                    <div class="single-project-item">
-                        <div class="img-holder">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/projects/latest-project-3.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one">
-                                <div class="box">
-                                    <div class="content">
-                                        <a href="projects-single.html"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block last">
+                            <div class="accord-btn last">
+                                <h4>What are the visiting hours?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>A Patient Centered Medical Home is a model of healthcare delivery in which care is tailored to the needs & preferences of patients, the Patient Centered Medical  model encourages.</p>
                             </div>
                         </div>
-                    </div>
-                    <!--End single blog post-->
-                    <!--Start single blog post-->
-                    <div class="single-project-item">
-                        <div class="img-holder">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/projects/latest-project-4.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one">
-                                <div class="box">
-                                    <div class="content">
-                                        <a href="projects-single.html"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>How many visitors are allowed at a time?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>A Patient Centered Medical Home is a model of healthcare delivery in which care is tailored to the needs & preferences of patients, the Patient Centered Medical  model encourages.</p>
                             </div>
                         </div>
+                        <!--End single accordion box-->
                     </div>
-                    <!--End single blog post-->
-                    <!--Start single blog post-->
-                    <div class="single-project-item">
-                        <div class="img-holder">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/projects/latest-project-5.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one">
-                                <div class="box">
-                                    <div class="content">
-                                        <a href="projects-single.html"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single blog post-->
-                    <!--Start single blog post-->
-                    <div class="single-project-item">
-                        <div class="img-holder">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/projects/latest-project-6.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one">
-                                <div class="box">
-                                    <div class="content">
-                                        <a href="projects-single.html"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single blog post-->
-                </div>    
+                </div>   
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <div class="faq-content">
@@ -349,7 +310,7 @@ get_header();
 <section class="fact-counter-area black-bg" style="background-image:url(<?php echo get_template_directory_uri(); ?>/images/resources/fact-counter-bg-v2.jpg);">
     <div class="container">
         <div class="sec-title text-center">
-            <h1>Keep <span>your headup</span> & be patient</h1>
+            <h1>Your <span>Health</span> Meets A New Partner</h1>
             <p>How all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the<br> system and expound the actual teachings of the great.</p>
         </div>
         <div class="row">
@@ -362,7 +323,7 @@ get_header();
                                 <span class="flaticon-medical"></span> 
                             </div>
                             <h1><span class="timer" data-from="1" data-to="25" data-speed="5000" data-refresh-interval="50">25</span></h1>
-                            <h3>Years of Experience</h3>
+                            <h3>3 Stores</h3>
                         </div>
                     </li>
                     <li>
@@ -380,7 +341,7 @@ get_header();
                                 <span class="flaticon-medical-1"></span> 
                             </div>
                             <h1><span class="timer" data-from="1" data-to="176" data-speed="5000" data-refresh-interval="50">176</span></h1>
-                            <h3>Heart Transplant</h3>
+                            <h3>Best Discounts</h3>
                         </div>
                     </li>
                     <li>
@@ -389,7 +350,7 @@ get_header();
                                 <span class="flaticon-ribbon"></span> 
                             </div>
                             <h1><span class="timer" data-from="1" data-to="142" data-speed="5000" data-refresh-interval="50">142</span></h1>
-                            <h3>Awards Holded</h3>
+                            <h3>Authentic Medicines</h3>
                         </div>
                     </li>
                 </ul>

@@ -12,7 +12,7 @@
                     <div class="our-info">
                         <p>Welcome to Lifeguard Pharmacy, a pioneering name in the pharmaceutical landscape of Kolkata. With an unwavering commitment to quality, convenience, and innovation, we have emerged as one of the fastest-growing pharmacy chains in the region. Established on a foundation of trust, Lifeguard Pharmacy is dedicated to providing exceptional service, genuine medications, and unparalleled value to our customers.</p>
                         <!-- <p class="mar-top">A Health Care Provider of Western Approach, Hospitals is the most trusted multispecialty hospital.</p> -->
-                        <a href="#">Know More<i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                        <a href="<?php echo esc_url( home_url( '/about-us' ) ); ?>">Know More<i class="fa fa-caret-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                         <span class="border"></span>
                     </div>
                     <ul class="usefull-links fl-lft">
-                        <li><a href="#">About Us</a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/about-us' ) ); ?>">About Us</a></li>
                         <li><a href="blog.php">Blog</a></li>
                         <li><a href="#">Consultants</a></li>
                         <li><a href="#">Working Hours</a></li>
@@ -126,7 +126,7 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="copyright-text">
-                    <p>Copyrights © 2017 All Rights Reserved, Powered by <a href="https://espousal.co.in/" target="_blank">Espousal.</a></p> 
+                    <p>&copy; <?php echo date("Y"); ?> Lifeguard. All Rights Reserved. Powered By <a href="https://espousal.co.in/" target="_blank">Espousal.</a></p> 
                 </div>
             </div>
             <div class="col-md-4">

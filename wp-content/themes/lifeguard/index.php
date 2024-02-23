@@ -548,7 +548,7 @@
 <section class="fact-counter-area" style="background: #006661;">
     <div class="container">
         <div class="sec-title text-center">
-            <h1>Keep your headup & be patient</h1>
+            <h1>Your Health Meets A New Partner</h1>
             <p>How all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the<br> system and expound the actual teachings of the great.</p>
         </div>
         <div class="row">

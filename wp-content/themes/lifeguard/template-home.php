@@ -372,9 +372,10 @@ get_header();
                     <!--End single item-->
                     <!--Start single item-->
                     <div class="single-item text-center">
-                        <div class="iocn-holder">
-                            <span class="flaticon-lungs"></span>    
-                        </div>
+<!--                         <div class="iocn-holder"> -->
+<!--                             <span class="flaticon-lungs"></span>     -->
+							<img src="<?php echo get_template_directory_uri(); ?>/images/resources/icon-test.jpeg" alt="Awesome Image">
+<!--                         </div> -->
                         <div class="text-holder">
                             <h3>Ayurvedic Medicines</h3>
                             <!-- <p>Ayurvedic Medicines.</p> -->
@@ -555,7 +556,7 @@ get_header();
 <section class="fact-counter-area" style="background: #006661;">
     <div class="container">
         <div class="sec-title text-center">
-            <h1>Keep your headup & be patient</h1>
+            <h1>Your Health Meets A New Partner</h1>
             <p>How all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the<br> system and expound the actual teachings of the great.</p>
         </div>
         <div class="row">
@@ -841,7 +842,7 @@ get_header();
             <div class="col-md-8">
                 <div class="facilities-content-box">
                     <div class="sec-title">
-                        <h1>Partner with us</h1>
+                        <h1>Why Choose Us</h1>
                         <span class="border"></span>
                     </div>
                     <!--Start facilities carousel-->
@@ -1053,7 +1054,7 @@ get_header();
 <!--End facilities Appointment area-->
 <!--Start brand area-->
 <!-- <section class="brand-area" style="background-image:url(images/awards/awards-bg.jpg);"> -->
-<section class="brand-area" style="background: #006661;">
+<!--<section class="brand-area" style="background: #006661;">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -1107,7 +1108,7 @@ get_header();
             </div>
         </div>
     </div>    
-</section>
+</section>-->
 <!--End brand area-->
 <?php
 get_footer();

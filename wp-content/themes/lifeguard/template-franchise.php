@@ -108,7 +108,7 @@ get_header();
     </div>
 </section>
 <!--End call to action area-->
-
+<?php /* ?>
 <!--Start service area-->
 <section class="service-area">
     <div class="container">
@@ -305,12 +305,12 @@ get_header();
     </div>
 </section>  
 <!--End service area-->
-
+<?php */ ?>
 <!--Start Medical Departments area-->
 <section class="medical-departments-area">
     <div class="container">
         <div class="sec-title">
-            <h1>Our Products</h1>
+            <h1>How Do We Help You?</h1>
             <span class="border"></span>
         </div>
         <div class="row">
@@ -322,7 +322,7 @@ get_header();
                             <span class="flaticon-cardiology"></span>    
                         </div>
                         <div class="text-holder">
-                            <h3>Allopathic Medicines</h3>
+                            <h3>Best in Class Training and Support</h3>
                             <!-- <p>Allopathic Medicines.</p> -->
                         </div>
                         <!-- <a class="readmore" href="#">Read More</a> -->
@@ -334,7 +334,7 @@ get_header();
                             <span class="flaticon-lungs"></span>    
                         </div>
                         <div class="text-holder">
-                            <h3>Ayurvedic Medicines</h3>
+                            <h3>Selection & Finalization of Shop Location</h3>
                             <!-- <p>Ayurvedic Medicines.</p> -->
                         </div>
                         <!-- <a class="readmore" href="#">Read More</a> -->
@@ -346,7 +346,7 @@ get_header();
                             <span class="flaticon-vagina"></span>    
                         </div>
                         <div class="text-holder">
-                            <h3>Homeopathy Medicines</h3>
+                            <h3>Interiors and Branding Support</h3>
                             <!-- <p>Homeopathy Medicines.</p> -->
                         </div>
                         <!-- <a class="readmore" href="#">Read More</a> -->
@@ -358,7 +358,7 @@ get_header();
                             <span class="flaticon-neurology"></span>    
                         </div>
                         <div class="text-holder">
-                            <h3>Surgical Products</h3>
+                            <h3>Assistance with License and Agreements</h3>
                             <!-- <p>Surgical Products.</p> -->
                         </div>
                         <!-- <a class="readmore" href="#">Read More</a> -->
@@ -370,7 +370,7 @@ get_header();
                             <span class="flaticon-neurology"></span>    
                         </div>
                         <div class="text-holder">
-                            <h3>OTC Product</h3>
+                            <h3>Tie up with Pharmacist</h3>
                             <!-- <p>OTC Product.</p> -->
                         </div>
                         <!-- <a class="readmore" href="#">Read More</a> -->
@@ -382,7 +382,7 @@ get_header();
                             <span class="flaticon-neurology"></span>    
                         </div>
                         <div class="text-holder">
-                            <h3>Other Products</h3>
+                            <h3>Inventory setup and procurement</h3>
                             <!-- <p>Other Products.</p> -->
                         </div>
                         <!-- <a class="readmore" href="#">Read More</a> -->
@@ -394,12 +394,24 @@ get_header();
                             <span class="flaticon-neurology"></span>    
                         </div>
                         <div class="text-holder">
-                            <h3>Daily Use Products</h3>
+                            <h3>Software and System IT support</h3>
                             <!-- <p>Daily Use Products.</p> -->
                         </div>
                         <!-- <a class="readmore" href="#">Read More</a> -->
                     </div>
                     <!--End single item-->
+                    <!--Start single item-->
+                    <div class="single-item text-center">
+                        <div class="iocn-holder">
+                            <span class="flaticon-neurology"></span>    
+                        </div>
+                        <div class="text-holder">
+                            <h3>Dedicated Business Consultants & Coaches</h3>
+                            <!-- <p>Daily Use Products.</p> -->
+                        </div>
+                        <!-- <a class="readmore" href="#">Read More</a> -->
+                    </div>
+                    <!--End single item-->					
                 </div>
             </div>    
         </div>
@@ -408,14 +420,32 @@ get_header();
 <!--End Medical Departments area--> 
 
 <!--Start contact map area-->
-<section class="team-area doctor">
+<!-- <section class="team-area doctor">
     <div class="container">
         <div class="row">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14740.903136905688!2d88.3336380107614!3d22.53321336812982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02773b434957f5%3A0x801da160ca17db35!2s5%2C%20Paddapukur%20Rd%2C%20Madan%20Mohan%20Malaviya%20Sarani%2C%20Jadubabur%20Bazar%2C%20Bhowanipore%2C%20Kolkata%2C%20West%20Bengal%20700025!5e0!3m2!1sen!2sin!4v1692038372472!5m2!1sen!2sin" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
-</section> 
+</section>  -->
 <!--End contact map area-->
+
+<!--Start welcome area-->
+<section class="welcome-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="img-holder">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/resources/5.jpg" alt="Awesome Image">    
+                </div>
+                <div class="inner-content">
+                    <p>As a tertiary referral ICU to provide state of the art care with the help of very good professionals and infrastructure.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>    
+</section>
+<!--End welcome area-->
 
 <!--Start team area-->
 <section class="team-area">
@@ -953,6 +983,111 @@ get_header();
 </section>
 <!--End Medical Departments area--> 
 */ ?>
+
+<!--Start project faq area-->
+<section class="project-faq-area sec-padding">
+    <div class="container">
+        <div class="sec-title mar0auto text-center">
+            <h1>FAQ’s</h1>
+            <span class="border"></span>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="faq-content">
+                    <div class="accordion-box">
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Where is the hospital located?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>A Patient Centered Medical Home is a model of healthcare delivery in which care is tailored to the needs & preferences of patients, the Patient Centered Medical  model encourages.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box--> 
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn active">
+                                <h4>What is the deposit amount for admission?</h4>
+                            </div>
+                            <div class="accord-content collapsed">
+                                <p>A Patient Centered Medical Home is a model of healthcare delivery in which care is tailored to the needs & preferences of patients, the Patient Centered Medical  model encourages.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block last">
+                            <div class="accord-btn last">
+                                <h4>What are the visiting hours?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>A Patient Centered Medical Home is a model of healthcare delivery in which care is tailored to the needs & preferences of patients, the Patient Centered Medical  model encourages.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>How many visitors are allowed at a time?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>A Patient Centered Medical Home is a model of healthcare delivery in which care is tailored to the needs & preferences of patients, the Patient Centered Medical  model encourages.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="faq-content">
+                    <div class="accordion-box">
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Where is the hospital located?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>A Patient Centered Medical Home is a model of healthcare delivery in which care is tailored to the needs & preferences of patients, the Patient Centered Medical  model encourages.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box--> 
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn active">
+                                <h4>What is the deposit amount for admission?</h4>
+                            </div>
+                            <div class="accord-content collapsed">
+                                <p>A Patient Centered Medical Home is a model of healthcare delivery in which care is tailored to the needs & preferences of patients, the Patient Centered Medical  model encourages.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block last">
+                            <div class="accord-btn last">
+                                <h4>What are the visiting hours?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>A Patient Centered Medical Home is a model of healthcare delivery in which care is tailored to the needs & preferences of patients, the Patient Centered Medical  model encourages.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>How many visitors are allowed at a time?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>A Patient Centered Medical Home is a model of healthcare delivery in which care is tailored to the needs & preferences of patients, the Patient Centered Medical  model encourages.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End project faq area--> 
 
 <!--Start slogan area-->
 <section class="slogan-area">
