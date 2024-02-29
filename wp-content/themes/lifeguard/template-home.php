@@ -97,35 +97,11 @@ get_header();
                                 <div class="input-box">
                                     <input type="text" name="form_name" value="" placeholder="Your Name" required="">
                                 </div>
-                                <!-- <div class="input-box">
-                                    <select class="selectmenu">
-                                        <option selected="selected">Select Doctor</option>
-                                        <option>Marc Parcival</option>
-                                        <option>Alen Bailey</option>
-                                        <option>Basil Andrew</option>
-                                        <option>Giles Franklin</option>
-                                        <option>Edgar Denzil</option>
-                                        <option>Garfield Feris</option>
-                                    </select>  
-                                </div> -->
                                 <div class="input-box">
                                     <input type="text" name="form_phone" value="" placeholder="Phone">  
                                 </div>
                             </div>
                             <div class="single-box">    
-                                <!-- <div class="input-box">  
-                                    <select class="selectmenu">
-                                        <option selected="selected">Select Department</option>
-                                        <option>Cardiology</option>
-                                        <option>Pulmonology</option>
-                                        <option>Gynecology</option>
-                                        <option>Neurology</option>
-                                        <option>Urology</option>
-                                        <option>Gastrology</option>
-                                        <option>Pediatrician</option>
-                                        <option>Laboratory</option>
-                                    </select>
-                                </div> -->
                                 <div class="input-box">  
                                     <select class="selectmenu">
                                         <option selected="selected">Select Location</option>
@@ -360,37 +336,30 @@ get_header();
                     <!--Start single item-->
                     <div class="single-item text-center">
                         <div class="iocn-holder">
-                            <!-- <span class="flaticon-cardiology"></span>   -->
-                            <i class="fas fa-walking"></i>  
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Allopathic_Medicines_LifeGuard_Website.png" alt="Icon">  
                         </div>
                         <div class="text-holder">
                             <h3>Allopathic Medicines</h3>
-                            <!-- <p>Allopathic Medicines.</p> -->
                         </div>
-                        <!-- <a class="readmore" href="#">Read More</a> -->
-                    </div>
-                    <!--End single item-->
-                    <!--Start single item-->
-                    <div class="single-item text-center">
-<!--                         <div class="iocn-holder"> -->
-<!--                             <span class="flaticon-lungs"></span>     -->
-							<img src="<?php echo get_template_directory_uri(); ?>/images/resources/icon-test.jpeg" alt="Awesome Image">
-<!--                         </div> -->
-                        <div class="text-holder">
-                            <h3>Ayurvedic Medicines</h3>
-                            <!-- <p>Ayurvedic Medicines.</p> -->
-                        </div>
-                        <!-- <a class="readmore" href="#">Read More</a> -->
                     </div>
                     <!--End single item-->
                     <!--Start single item-->
                     <div class="single-item text-center">
                         <div class="iocn-holder">
-                            <span class="flaticon-vagina"></span>    
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Ayurvedic_Medicines_LifeGuard_Website.png" alt="Icon">
+                        </div>
+                        <div class="text-holder">
+                            <h3>Ayurvedic Medicines</h3>
+                        </div>
+                    </div>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <div class="single-item text-center">
+                        <div class="iocn-holder">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Homeopathy_Medicines_LifeGuard_Website.png" alt="Icon">    
                         </div>
                         <div class="text-holder">
                             <h3>Homeopathy Medicines</h3>
-                            <!-- <p>Homeopathy Medicines.</p> -->
                         </div>
                         <!-- <a class="readmore" href="#">Read More</a> -->
                     </div>
@@ -398,49 +367,41 @@ get_header();
                     <!--Start single item-->
                     <div class="single-item text-center">
                         <div class="iocn-holder">
-                            <span class="flaticon-neurology"></span>    
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Surgical_Products_LifeGuard_Website.png" alt="Icon">    
                         </div>
                         <div class="text-holder">
                             <h3>Surgical Products</h3>
-                            <!-- <p>Surgical Products.</p> -->
                         </div>
-                        <!-- <a class="readmore" href="#">Read More</a> -->
                     </div>
                     <!--End single item-->
                     <!--Start single item-->
                     <div class="single-item text-center">
                         <div class="iocn-holder">
-                            <span class="flaticon-neurology"></span>    
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/resources/OTC_Product_LifeGuard_Website.png" alt="Icon">    
                         </div>
                         <div class="text-holder">
                             <h3>OTC Product</h3>
-                            <!-- <p>OTC Product.</p> -->
                         </div>
-                        <!-- <a class="readmore" href="#">Read More</a> -->
                     </div>
                     <!--End single item-->
                         <!--Start single item-->
                         <div class="single-item text-center">
                         <div class="iocn-holder">
-                            <span class="flaticon-neurology"></span>    
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Other_Products_LifeGuard_Website.png" alt="Icon">    
                         </div>
                         <div class="text-holder">
                             <h3>Other Products</h3>
-                            <!-- <p>Other Products.</p> -->
                         </div>
-                        <!-- <a class="readmore" href="#">Read More</a> -->
                     </div>
                     <!--End single item-->
                     <!--Start single item-->
                     <div class="single-item text-center">
                         <div class="iocn-holder">
-                            <span class="flaticon-neurology"></span>    
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Daily_Use_Products_LifeGuard_Website.png" alt="Icon">    
                         </div>
                         <div class="text-holder">
                             <h3>Daily Use Products</h3>
-                            <!-- <p>Daily Use Products.</p> -->
                         </div>
-                        <!-- <a class="readmore" href="#">Read More</a> -->
                     </div>
                     <!--End single item-->
                 </div>
@@ -552,7 +513,6 @@ get_header();
 </section> 
 <!--End team area-->
 <!--Start fact counter area-->
-<!-- <section class="fact-counter-area" style="background-image:url(images/resources/fact-counter-bg.jpg);"> -->
 <section class="fact-counter-area" style="background: #006661;">
     <div class="container">
         <div class="sec-title text-center">
@@ -569,7 +529,7 @@ get_header();
                                 <span class="flaticon-medical"></span> 
                             </div>
                             <h1><span class="timer" data-from="1" data-to="25" data-speed="5000" data-refresh-interval="50">25</span></h1>
-                            <h3>Years of Experience</h3>
+                            <h3>3 Stores</h3>
                         </div>
                     </li>
                     <li>
@@ -587,7 +547,7 @@ get_header();
                                 <span class="flaticon-medical-1"></span> 
                             </div>
                             <h1><span class="timer" data-from="1" data-to="176" data-speed="5000" data-refresh-interval="50">176</span></h1>
-                            <h3>Heart Transplant</h3>
+                            <h3>Best Discounts</h3>
                         </div>
                     </li>
                     <li>
@@ -596,7 +556,7 @@ get_header();
                                 <span class="flaticon-ribbon"></span> 
                             </div>
                             <h1><span class="timer" data-from="1" data-to="142" data-speed="5000" data-refresh-interval="50">142</span></h1>
-                            <h3>Awards Holded</h3>
+                            <h3>Authentic Medicines</h3>
                         </div>
                     </li>
                 </ul>
@@ -835,6 +795,7 @@ get_header();
     </div>
 </section>
 <!--End latest blog area-->
+
 <!--Start facilities Appointment area-->
 <section class="facilities-appointment-area">
     <div class="container">
@@ -845,162 +806,13 @@ get_header();
                         <h1>Why Choose Us</h1>
                         <span class="border"></span>
                     </div>
-                    <!--Start facilities carousel-->
-                    <div class="facilities-carousel">
-                        <!------Start single facilities item------->
-                        <div class="single-facilities-item">
-                            <div class="row">
-                                <!--Start single item-->
-                                <div class="col-md-6">
-                                    <div class="single-item">
-                                        <div class="icon-holder">
-                                            <div class="icon-box">
-                                                <div class="icon">
-                                                    <span class="flaticon-transport"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="text-holder">
-                                            <h3>24 Hrs Ambulance</h3>
-                                            <p>How all this mistaken idea denoucing pleasure and praisings pain was born complete account expound.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-6">
-                                    <div class="single-item">
-                                        <div class="icon-holder">
-                                            <div class="icon-box">
-                                                <div class="icon">
-                                                    <span class="flaticon-drink"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="text-holder">
-                                            <h3>Food & Dietary</h3>
-                                            <p>The Dietitian plans the diet based on the therapeutic needs of the patient, Local specialties, Continental.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                            </div>
-                            <div class="row">
-                                <!--Start single item-->
-                                <div class="col-md-6">
-                                    <div class="single-item">
-                                        <div class="icon-holder">
-                                            <div class="icon-box">
-                                                <div class="icon">
-                                                    <span class="flaticon-avatar"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="text-holder">
-                                            <h3>Special Nurses</h3>
-                                            <p>Special nurse services can be arranged through Nursing , master of human happiness.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-6">
-                                    <div class="single-item">
-                                        <div class="icon-holder">
-                                            <div class="icon-box">
-                                                <div class="icon">
-                                                    <span class="flaticon-church"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="text-holder">
-                                            <h3>Places of Worship</h3>
-                                            <p>There is a temple of Goddess Krishna mariamman in the hospital premises, a Namaz room & Prayer cell</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                            </div>
-                        </div>
-                        <!-------End single facilities item------>
-                        <!------Start single facilities item------->
-                        <div class="single-facilities-item">
-                            <div class="row">
-                                <!--Start single item-->
-                                <div class="col-md-6">
-                                    <div class="single-item">
-                                        <div class="icon-holder">
-                                            <div class="icon-box">
-                                                <div class="icon">
-                                                    <span class="flaticon-transport"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="text-holder">
-                                            <h3>24 Hrs Ambulance</h3>
-                                            <p>How all this mistaken idea denoucing pleasure and praisings pain was born complete account expound.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-6">
-                                    <div class="single-item">
-                                        <div class="icon-holder">
-                                            <div class="icon-box">
-                                                <div class="icon">
-                                                    <span class="flaticon-drink"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="text-holder">
-                                            <h3>Food & Dietary</h3>
-                                            <p>The Dietitian plans the diet based on the therapeutic needs of the patient, Local specialties, Continental.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                            </div>
-                            <div class="row">
-                                <!--Start single item-->
-                                <div class="col-md-6">
-                                    <div class="single-item">
-                                        <div class="icon-holder">
-                                            <div class="icon-box">
-                                                <div class="icon">
-                                                    <span class="flaticon-avatar"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="text-holder">
-                                            <h3>Special Nurses</h3>
-                                            <p>Special nurse services can be arranged through Nursing , master of human happiness.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-6">
-                                    <div class="single-item">
-                                        <div class="icon-holder">
-                                            <div class="icon-box">
-                                                <div class="icon">
-                                                    <span class="flaticon-church"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="text-holder">
-                                            <h3>Places of Worship</h3>
-                                            <p>There is a temple of Goddess Krishna mariamman in the hospital premises, a Namaz room & Prayer cell</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                            </div>
-                        </div>
-                        <!-------End single facilities item------>
+                    <div class="text-holder">
+                    <div class="title">
+                        <h1>Welcome to Life Guard</h1>
+                        <p>We are one of the Fastest growing Pharma Chains in Kolkata.</p>    
                     </div>
-                    <!--End facilities carousel-->    
+
+                </div>
                 </div>
             </div>
             <div class="col-md-4">
@@ -1052,64 +864,7 @@ get_header();
     </div>    
 </section>
 <!--End facilities Appointment area-->
-<!--Start brand area-->
-<!-- <section class="brand-area" style="background-image:url(images/awards/awards-bg.jpg);"> -->
-<!--<section class="brand-area" style="background: #006661;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="text-holder">
-                    <div class="sec-title">
-                        <h1>You’re in Good Hands</h1>
-                    </div>
-                    <div class="text">
-                        <p>We believe in bringing the most modern techniques and delivering extraordinary care to ailing population with the highest levels of ethics and standards. We are committed to continuing medical education, through our fellowship and DNB programs.</p>
-                        <p>We organize atleast one conference a month and support research foundation for continued advancement.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="awards-holder">
-                    <div class="sec-title">
-                        <h1>Clinic Awards</h1>
-                    </div>
-                    <div class="row">
-                        <!--Start single item-->
-                        <div class="col-md-6">
-                            <div class="single-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/awards/1.png" alt="Awesome Brand Image"></a>
-                            </div>
-                        </div>
-                        <!--End single item-->
-                        <!--Start single item-->
-                        <div class="col-md-6">
-                            <div class="single-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/awards/2.png" alt="Awesome Brand Image"></a>
-                            </div>
-                        </div>
-                        <!--End single item-->
-                        
-                        <!--Start single item-->
-                        <div class="col-md-6">
-                            <div class="single-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/awards/1.png" alt="Awesome Brand Image"></a>
-                            </div>
-                        </div>
-                        <!--End single item-->
-                        <!--Start single item-->
-                        <div class="col-md-6">
-                            <div class="single-item">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/awards/2.png" alt="Awesome Brand Image"></a>
-                            </div>
-                        </div>
-                        <!--End single item-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>    
-</section>-->
-<!--End brand area-->
+
 <?php
 get_footer();
 ?>

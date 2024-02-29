@@ -41,12 +41,12 @@
 <!--End Preloader --> 
 <!--Start header area-->
 <!--Start top bar area-->
-<section class="top-bar-area">
+<!-- <section class="top-bar-area">
     <div class="container">
         <div class="row">
             <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
                 <div class="top-left">
-                    <!-- <p><span class="flaticon-phone"></span>24 hours emergency & ambulance Service: +321 789 01 2345</p>  -->
+                    <p><span class="flaticon-phone"></span>24 hours emergency & ambulance Service: +321 789 01 2345</p>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
@@ -62,7 +62,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!--End top bar area-->  
 <!--Start header area--> 
 <section class="header-area">
@@ -103,8 +103,8 @@
                                 <span class="flaticon-agenda"></span>
                             </div>
                             <div class="text-holder">
-                                <h4>Mon - Satday</h4>
-                                <span>09.00am to 18.00pm</span>    
+                                <h4>Monday to Sunday</h4>
+                                <span>24x7</span>    
                             </div>
                         </li>        
                     </ul>

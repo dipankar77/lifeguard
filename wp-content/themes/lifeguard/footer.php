@@ -26,20 +26,13 @@
                     </div>
                     <ul class="usefull-links fl-lft">
                         <li><a href="<?php echo esc_url( home_url( '/about-us' ) ); ?>">About Us</a></li>
-                        <li><a href="blog.php">Blog</a></li>
-                        <li><a href="#">Consultants</a></li>
-                        <li><a href="#">Working Hours</a></li>
-                        <li><a href="#">Procedures</a></li>
-                        <li><a href="#">Special Offers</a></li>
-                        <li><a href="#">FAQ’s</a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/stores' ) ); ?>">Stores</a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/services' ) ); ?>">Services</a></li>
                     </ul>
                     <ul class="usefull-links">
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Healthy Foods</a></li>
-                        <li><a href="#">Appointments</a></li>
-                        <li><a href="#">Latest News</a></li>
-                        <li><a href="#">Certificates</a></li>
-                        <li><a href="#">Qualifications</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/franchise' ) ); ?>">Franchise</a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/faq' ) ); ?>">FAQs</a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/contact-us' ) ); ?>">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -57,7 +50,7 @@
                                 <span class="flaticon-pin"></span>
                             </div>
                             <div class="text-holder">
-                                <h5>Park Drive, Varick Str New York,<br> NY 10012, USA</h5>
+                                <h5>5/1, Paddapukur Road,<br>Devika Apartment, Kolkata - 700020</h5>
                             </div>
                         </li>
                         <li>
@@ -65,7 +58,7 @@
                                 <span class="flaticon-interface"></span>
                             </div>
                             <div class="text-holder">
-                                <h5>Getwell@Hospitals.com</h5>
+                                <h5>info@lifeguard.net</h5>
                             </div>
                         </li>
                         <li>
@@ -73,7 +66,7 @@
                                 <span class="flaticon-technology-1"></span>
                             </div>
                             <div class="text-holder">
-                                <h5>(123) 0200 12345 & 7890</h5>
+                                <h5>+91 98362 13542</h5>
                             </div>
                         </li>
                         <li>
@@ -81,7 +74,7 @@
                                 <span class="flaticon-clock"></span>
                             </div>
                             <div class="text-holder">
-                                <h5>Mon-Satday: 9am to 18pm</h5>
+                                <h5>Monday to Sunday (24x7)</h5>
                             </div>
                         </li>
                     </ul>
@@ -131,10 +124,9 @@
             </div>
             <div class="col-md-4">
                 <ul class="footer-social-links">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                 </ul>
             </div>
         </div>

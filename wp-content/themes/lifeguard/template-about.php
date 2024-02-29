@@ -75,11 +75,8 @@ get_header();
                                     <h3>Our Vision</h3>
                                     <p>Explain to you how all this mistaken idea of denouncing pleasure.</p>
                                     <div class="text">
-                                        <p><i class="fa fa-hand-o-right"></i>From a regular pharmacy store to one which
-promotes and caters to every requirement for a
-healthy lifestyle</p>    
-                                        <p><i class="fa fa-hand-o-right"></i>Enabling access to complete Healthcare
-information</p>    
+                                        <p><i class="fa fa-hand-o-right"></i>From a regular pharmacy store to one which promotes and caters to every requirement for a healthy lifestyle</p>    
+                                        <p><i class="fa fa-hand-o-right"></i>Enabling access to complete Healthcare information</p>    
                                     </div>
                                 </div>
                             </div>
@@ -103,11 +100,11 @@ information</p>
             <div class="col-md-4">
                 <div class="single-item">
                     <div class="icon-box">
-                        <span class="flaticon-transport"></span>    
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Allopathic_Medicines_LifeGuard_Website.png" alt="Custom Icon" style="max-width: 20%; max-height: 20%;">
                     </div>
                     <div class="text-box">
                         <h3>Allopathic Medicines</h3>
-<!--                         <p>How all this mistaken idea denoucing pleasure and praisings pain was born complete account expound.</p> -->
+                        <p>How all this mistaken idea denoucing pleasure and praisings pain was born complete account expound.</p>
                     </div>
                 </div>
             </div>
@@ -116,11 +113,11 @@ information</p>
             <div class="col-md-4">
                 <div class="single-item">
                     <div class="icon-box">
-                        <span class="flaticon-drink"></span>    
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Ayurvedic_Medicines_LifeGuard_Website.png" alt="Custom Icon" style="max-width: 20%; max-height: 20%;">    
                     </div>
                     <div class="text-box">
                         <h3>Ayurvedic Medicines</h3>
-<!--                         <p>There anyone who loves or pursues or to obtain pain of itself, because it is but because occasionally.</p> -->
+                        <p>There anyone who loves or pursues or to obtain pain of itself, because it is but because occasionally.</p>
                     </div>
                 </div>
             </div>
@@ -129,11 +126,11 @@ information</p>
             <div class="col-md-4">
                 <div class="single-item">
                     <div class="icon-box">
-                        <span class="flaticon-avatar"></span>    
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Homeopathy_Medicines_LifeGuard_Website.png" alt="Custom Icon" style="max-width: 20%; max-height: 20%;">    
                     </div>
                     <div class="text-box">
                         <h3>Homeopathy Medicines</h3>
-<!--                         <p>Pursues or desires to obtain pain itself, because is pain, because occasionally circumstances occur procure.</p> -->
+                        <p>Pursues or desires to obtain pain itself, because is pain, because occasionally circumstances occur procure.</p>
                     </div>
                 </div>
             </div>
@@ -144,11 +141,11 @@ information</p>
             <div class="col-md-4">
                 <div class="single-item">
                     <div class="icon-box">
-                        <span class="flaticon-church"></span>    
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Surgical_Products_LifeGuard_Website.png" alt="Custom Icon" style="max-width: 20%; max-height: 20%;">    
                     </div>
                     <div class="text-box">
                         <h3>Surgical Products</h3>
-<!--                         <p>Undertakes laborious physical exercise, except to obtain some advantage from it but who has any right.</p> -->
+                        <p>Undertakes laborious physical exercise, except to obtain some advantage from it but who has any right.</p>
                     </div>
                 </div>
             </div>
@@ -157,11 +154,11 @@ information</p>
             <div class="col-md-4">
                 <div class="single-item">
                     <div class="icon-box">
-                        <span class="flaticon-phone"></span>    
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/resources/OTC_Product_LifeGuard_Website.png" alt="Custom Icon" style="max-width: 20%; max-height: 20%;">    
                     </div>
                     <div class="text-box">
                         <h3>OTC Product</h3>
-<!--                         <p>Undertakes laborious physical exercise, except to obtain some advantage from it but who has any right.</p> -->
+                        <p>Undertakes laborious physical exercise, except to obtain some advantage from it but who has any right.</p>
                     </div>
                 </div>
             </div>
@@ -170,11 +167,11 @@ information</p>
             <div class="col-md-4">
                 <div class="single-item">
                     <div class="icon-box">
-                        <span class="flaticon-medical-2"></span>    
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Other_Products_LifeGuard_Website.png" alt="Custom Icon" style="max-width: 20%; max-height: 20%;">    
                     </div>
                     <div class="text-box">
                         <h3>Other Products</h3>
-<!--                         <p>Pursues or desires to obtain pain itself, because is pain, because occasionally circumstances occur procure.</p> -->
+                        <p>Pursues or desires to obtain pain itself, because is pain, because occasionally circumstances occur procure.</p>
                     </div>
                 </div>
             </div>

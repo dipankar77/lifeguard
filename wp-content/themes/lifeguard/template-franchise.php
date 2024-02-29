@@ -54,36 +54,12 @@ get_header();
                                 <div class="input-box">
                                     <input type="text" name="form_name" value="" placeholder="Your Name" required="">
                                 </div>
-                                <!-- <div class="input-box">
-                                    <select class="selectmenu">
-                                        <option selected="selected">Select Doctor</option>
-                                        <option>Marc Parcival</option>
-                                        <option>Alen Bailey</option>
-                                        <option>Basil Andrew</option>
-                                        <option>Giles Franklin</option>
-                                        <option>Edgar Denzil</option>
-                                        <option>Garfield Feris</option>
-                                    </select>  
-                                </div> -->
                                 <div class="input-box">
                                     <input type="text" name="form_phone" value="" placeholder="Phone">  
                                 </div>
                             </div>
                             <div class="single-box">    
-                                <!-- <div class="input-box">  
-                                    <select class="selectmenu">
-                                        <option selected="selected">Select Department</option>
-                                        <option>Cardiology</option>
-                                        <option>Pulmonology</option>
-                                        <option>Gynecology</option>
-                                        <option>Neurology</option>
-                                        <option>Urology</option>
-                                        <option>Gastrology</option>
-                                        <option>Pediatrician</option>
-                                        <option>Laboratory</option>
-                                    </select>
-                                </div> -->
-                                <div class="input-box">  
+                                 <div class="input-box">  
                                     <select class="selectmenu">
                                         <option selected="selected">Select Location</option>
                                         <option>Bhowanipore</option>
@@ -108,204 +84,8 @@ get_header();
     </div>
 </section>
 <!--End call to action area-->
-<?php /* ?>
-<!--Start service area-->
-<section class="service-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="img-holder">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/services/doctor.jpg" alt="Awesome Image">
-                    <div class="overlay-content">
-                        <p>As a tertiary referral ICU to provide state of the art care with the help of very good professionals and infrastructure.</p>  
-                    </div>    
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="text-holder">
-                    <!--Start tab box-->
-                    <div class="tab-box">
-                        <div class="tab-content">
-                            <!--Start single tab pane-->
-                            <div class="tab-pane" id="opthalmology">
-                                <div class="inner-content">
-                                    <div class="sec-title">
-                                        <h1>About Lifeguard</h1>
-                                        <span class="border"></span>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="text-box">
-                                                <h3>Opthalmology Analysis</h3>
-                                                <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
-                                                <a class="thm-btn" href="#">Read More</a>
-                                            </div>    
-                                        </div>    
-                                        <div class="col-md-6">
-                                            <div class="img-box">
-                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-big-1.jpg" alt="Awesome Image">
-                                            </div>    
-                                        </div>    
-                                    </div>
-                                </div>  
-                            </div>
-                            <!--End single tab pane-->
-                            <!--Start single tab pane-->
-                            <div class="tab-pane active" id="laboratory">
-                                <div class="inner-content">
-                                    <div class="sec-title">
-                                        <h1>About Lifeguard</h1>
-                                        <span class="border"></span>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="text-box">
-                                                <h3>Welcome</h3>
-                                                <p>Welcome to Lifeguard Pharmacy, a pioneering name in the pharmaceutical landscape of Kolkata. With an unwavering commitment to quality, convenience, and innovation, we have emerged as one of the fastest-growing pharmacy chains in the region.</p>
-                                                <a class="thm-btn" href="#">Read More</a>
-                                            </div>    
-                                        </div>    
-                                        <div class="col-md-6">
-                                            <div class="img-box">
-                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-big-2.jpg" alt="Awesome Image">
-                                            </div>    
-                                        </div>    
-                                    </div>
-                                </div>  
-                            </div>
-                            <!--End single tab pane-->
-                            <!--Start single tab pane-->
-                            <div class="tab-pane" id="cardiac">
-                                <div class="inner-content">
-                                    <div class="sec-title">
-                                        <h1>Our Best Services</h1>
-                                        <span class="border"></span>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="text-box">
-                                                <h3>Cardiac Clinic Analysis</h3>
-                                                <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and the master-builder of human happiness. Expound the actual teachings of the great explorer of the truth.</p>
-                                                <a class="thm-btn" href="#">Read More</a>
-                                            </div>    
-                                        </div>    
-                                        <div class="col-md-6">
-                                            <div class="img-box">
-                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-big-3.jpg" alt="Awesome Image">
-                                            </div>    
-                                        </div>    
-                                    </div>
-                                </div>     
-                            </div>
-                            <!--End single tab pane-->
-                            <!--Start single tab pane-->
-                            <div class="tab-pane" id="outpatient">
-                                <div class="inner-content">
-                                    <div class="sec-title">
-                                        <h1>Our Best Services</h1>
-                                        <span class="border"></span>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="text-box">
-                                                <h3>OutPatient Analysis</h3>
-                                                <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and the master-builder of human happiness. Expound the actual teachings of the great explorer of the truth.</p>
-                                                <a class="thm-btn" href="#">Read More</a>
-                                            </div>    
-                                        </div>    
-                                        <div class="col-md-6">
-                                            <div class="img-box">
-                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-big-4.jpg" alt="Awesome Image">
-                                            </div>    
-                                        </div>    
-                                    </div>
-                                </div>     
-                            </div>
-                            <!--End single tab pane-->
-                        </div>
-                        <ul class="nav nav-tabs tab-menu">
-                            <li>
-                                <!-- <a href="#opthalmology" data-toggle="tab"> -->
-                                <a href="#">
-                                    <div class="img-holder">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-small-1.jpg" alt="Awesome Image">
-                                        <div class="overlay-style-one">
-                                            <div class="box">
-                                                <div class="content">
-                                                    <div class="iocn-holder">
-                                                        <span class="flaticon-plus-symbol"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <h3>Bhowanipore</h3>
-                            </li>
-                            <!-- <li class="active"> -->
-                            <li>
-                                <!-- <a href="#laboratory" data-toggle="tab"> -->
-                                <a href="#">
-                                    <div class="img-holder">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-small-2.jpg" alt="Awesome Image">
-                                        <div class="overlay-style-one">
-                                            <div class="box">
-                                                <div class="content">
-                                                    <div class="iocn-holder">
-                                                        <span class="flaticon-plus-symbol"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>    
-                                </a>
-                                <h3>Park Circus</h3>
-                            </li>
-                            <li>
-                                <!-- <a href="#cardiac" data-toggle="tab"> -->
-                                <a href="#">
-                                    <div class="img-holder">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-small-3.jpg" alt="Awesome Image">
-                                        <div class="overlay-style-one">
-                                            <div class="box">
-                                                <div class="content">
-                                                    <div class="iocn-holder">
-                                                        <span class="flaticon-plus-symbol"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <h3>Golf Green</h3>
-                            </li>
-                            <!-- <li>
-                                <a href="#outpatient" data-toggle="tab">
-                                    <div class="img-holder">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-small-4.jpg" alt="Awesome Image">
-                                        <div class="overlay-style-one">
-                                            <div class="box">
-                                                <div class="content">
-                                                    <div class="iocn-holder">
-                                                        <span class="flaticon-plus-symbol"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <h3>OutPatient</h3>
-                            </li> -->
-                        </ul> 
-                    </div>
-                    <!--End tab box--> 
-                </div>
-            </div>
-        </div>
-    </div>
-</section>  
-<!--End service area-->
-<?php */ ?>
+<?php  ?>
+
 <!--Start Medical Departments area-->
 <section class="medical-departments-area">
     <div class="container">
@@ -319,35 +99,30 @@ get_header();
                     <!--Start single item-->
                     <div class="single-item text-center">
                         <div class="iocn-holder">
-                            <span class="flaticon-cardiology"></span>    
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Best_in_Class_Training_and_Support.png" alt="Icon">  
                         </div>
                         <div class="text-holder">
                             <h3>Best in Class Training and Support</h3>
-                            <!-- <p>Allopathic Medicines.</p> -->
                         </div>
-                        <!-- <a class="readmore" href="#">Read More</a> -->
                     </div>
                     <!--End single item-->
                     <!--Start single item-->
                     <div class="single-item text-center">
                         <div class="iocn-holder">
-                            <span class="flaticon-lungs"></span>    
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Selection_Finalization_of_Shop_Location.png" alt="Icon">
                         </div>
                         <div class="text-holder">
                             <h3>Selection & Finalization of Shop Location</h3>
-                            <!-- <p>Ayurvedic Medicines.</p> -->
                         </div>
-                        <!-- <a class="readmore" href="#">Read More</a> -->
                     </div>
                     <!--End single item-->
                     <!--Start single item-->
                     <div class="single-item text-center">
                         <div class="iocn-holder">
-                            <span class="flaticon-vagina"></span>    
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Interiors_and_Branding_Support.png" alt="Icon">    
                         </div>
                         <div class="text-holder">
                             <h3>Interiors and Branding Support</h3>
-                            <!-- <p>Homeopathy Medicines.</p> -->
                         </div>
                         <!-- <a class="readmore" href="#">Read More</a> -->
                     </div>
@@ -355,63 +130,53 @@ get_header();
                     <!--Start single item-->
                     <div class="single-item text-center">
                         <div class="iocn-holder">
-                            <span class="flaticon-neurology"></span>    
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Assistance_with_License_and_Agreements.png" alt="Icon">    
                         </div>
                         <div class="text-holder">
                             <h3>Assistance with License and Agreements</h3>
-                            <!-- <p>Surgical Products.</p> -->
                         </div>
-                        <!-- <a class="readmore" href="#">Read More</a> -->
                     </div>
                     <!--End single item-->
                     <!--Start single item-->
                     <div class="single-item text-center">
                         <div class="iocn-holder">
-                            <span class="flaticon-neurology"></span>    
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Tie_up_with_Pharmacist.png" alt="Icon">    
                         </div>
                         <div class="text-holder">
                             <h3>Tie up with Pharmacist</h3>
-                            <!-- <p>OTC Product.</p> -->
                         </div>
-                        <!-- <a class="readmore" href="#">Read More</a> -->
                     </div>
                     <!--End single item-->
                         <!--Start single item-->
                         <div class="single-item text-center">
                         <div class="iocn-holder">
-                            <span class="flaticon-neurology"></span>    
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Inventory_setup_and_procurement.png" alt="Icon">    
                         </div>
                         <div class="text-holder">
                             <h3>Inventory setup and procurement</h3>
-                            <!-- <p>Other Products.</p> -->
                         </div>
-                        <!-- <a class="readmore" href="#">Read More</a> -->
                     </div>
                     <!--End single item-->
                     <!--Start single item-->
                     <div class="single-item text-center">
                         <div class="iocn-holder">
-                            <span class="flaticon-neurology"></span>    
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Software_and_System_IT_support.png" alt="Icon">    
                         </div>
                         <div class="text-holder">
                             <h3>Software and System IT support</h3>
-                            <!-- <p>Daily Use Products.</p> -->
                         </div>
-                        <!-- <a class="readmore" href="#">Read More</a> -->
                     </div>
                     <!--End single item-->
                     <!--Start single item-->
                     <div class="single-item text-center">
                         <div class="iocn-holder">
-                            <span class="flaticon-neurology"></span>    
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/resources/Dedicated_Business_Consultants_Coaches.png" alt="Icon">    
                         </div>
                         <div class="text-holder">
                             <h3>Dedicated Business Consultants & Coaches</h3>
-                            <!-- <p>Daily Use Products.</p> -->
                         </div>
-                        <!-- <a class="readmore" href="#">Read More</a> -->
                     </div>
-                    <!--End single item-->					
+                    <!--End single item-->                    
                 </div>
             </div>    
         </div>
